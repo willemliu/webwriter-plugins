@@ -32,7 +32,7 @@ In other sessions you only need to:
 1. Replace `this.context.i18n.t` by `this.getLabel` 
 1. Replace `this.context.api.on` by `this.context.api.events.on`
 1. Register the plugin in the `index.js` in the plugin root directory of `webwriter-plugins/plugins`
-1. Add plugin entry in `webwriter-fd-dev.json`
+1. Add plugin entry in `webwriter-fd-dev.json` 
 ```json
         {
             "id": "nl.fdmg.<plugin>",
@@ -42,6 +42,6 @@ In other sessions you only need to:
             "mandatory": true
         }
 ```
-## Rinse and repeat
 1. Copy `webwriter-plugins/writer-fd-dev.json` to `NPWriter/server/config`
 1. Restart `Webwriter` and `NPWriterDevKit`/`webwriter-plugins`
+## Rinse and repeat
